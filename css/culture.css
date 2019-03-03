@@ -1,0 +1,276 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	background: url(../images/bg5.jpg) top no-repeat;
+	background-color: #e9e5d9;
+}
+
+#content{
+	width: 70%;
+	height: 700px;
+	background-color: #fff;
+	margin: 0 auto;
+	position: absolute;
+	left: 15%;
+	top: 340px;
+}
+
+.Confucian{
+	border: 2px solid #ccc;
+	margin: 1%;
+	width: 30%;
+	height: 250px;
+	background: #f7f7f7;
+	float: left;
+	margin-left: 3%;
+}
+
+.Confucian_top{
+	width: 100%;
+	height: 52%;
+	background: url(../images/header2.jpg) center;
+}
+
+.Confucian_top h3{
+	position: absolute;
+	top:3%;
+	left: 16%;
+}
+
+.Confucian_top p{
+	position: relative;
+	top: 38%;
+	left: 40%;
+	width: 60%;
+	height: 30%;
+	font-size: 12px;
+}
+
+
+
+.Confucian_bottom ul{
+	position: relative;
+	width: 60%;
+	top: 5px;
+	left: 5px;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+.Confucian_bottom li{
+	height: 20px;
+	line-height: 20px;
+}
+
+.Confucian_bottom img{
+	position: absolute;
+	top: 20%;
+	left: 21%;
+	display: block;
+	width: 100px;
+	height: 115px;
+}
+
+
+
+.Taoist{
+	border: 2px solid #ccc;
+	margin: 1%;
+	width: 30%;
+	height: 250px;
+	background: #f7f7f7;
+	float: left;
+}
+
+.Taoist_top{
+	width: 100%;
+	height: 52%;
+	background: url(../images/header3.jpg) center;
+}
+
+.Taoist_top h3{
+	position: absolute;
+	top:3%;
+	left: 48%;
+}
+
+.Taoist_top p{
+	position: relative;
+	top: 38%;
+	left: 40%;
+	width: 60%;
+	height: 30%;
+	font-size: 12px;
+}
+
+
+
+.Taoist_bottom ul{
+	position: relative;
+	width: 60%;
+	top: 5px;
+	left: 5px;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+.Taoist_bottom li{
+	height: 20px;
+	line-height: 20px;
+}
+
+.Taoist_bottom img{
+	position: absolute;
+	top: 20%;
+	left: 54%;
+	display: block;
+	width: 100px;
+	height: 115px;
+}
+
+.buddhist{
+	border: 2px solid #ccc;
+	margin: 1%;
+	width: 30%;
+	height: 250px;
+	background: #f7f7f7;
+	float: left;
+}
+
+
+
+.buddhist_top{
+	width: 100%;
+	height: 52%;
+	background: url(../images/header2.jpg) center;
+}
+
+.buddhist_top h3{
+	position: absolute;
+	top:3%;
+	left: 81%;
+}
+
+.buddhist_top p{
+	position: relative;
+	top: 37%;
+	left: 40%;
+	width: 60%;
+	height: 30%;
+	font-size: 12px;
+}
+
+
+
+.buddhist_bottom ul{
+	position: relative;
+	width: 60%;
+	top: 5px;
+	left: 5px;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+.buddhist_bottom li{
+	height: 20px;
+	line-height: 20px;
+}
+
+.buddhist_bottom img{
+	position: absolute;
+	top: 20%;
+	left: 84%;
+	display: block;
+	width: 100px;
+	height: 115px;
+}
+
+.exponents{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background: #fff;
+	top: 280px;
+}
+
+.exponents_header{
+	width: 100%;
+	height: 50px;
+	background: url(../images/header1.jpg) center no-repeat;
+	background-color: #fff;
+}
+
+.exponents_content .item{
+	border: 2px solid #ccc;
+	background-color: #fff;
+	width: 20%;
+	margin: 2%;
+	height: 280px;
+	float: left;
+	font-size: 12px;
+	/*float: left;
+	width: 200px;
+	padding: 10px;*/
+}
+
+.exponents_content .item li{
+	height: 20px;
+	line-height: 20px;
+}
+
+.exponents_content img{
+	width: 193px;
+}
+
+.exponents_content ul{
+	list-style-type: none;
+}
+
+#fesitive{
+	position: fixed;
+	top:80px;
+	left: 15px;
+	width: 300px;
+	height: 400px;
+	z-index: 10;
+}
+
+#fesitive ul{
+	width: 300px;
+	height: 400px;
+	list-style-type: none;
+}
+
+#fesitive ul a{
+	display: block;
+	text-decoration: none;
+}
+
+#fesitive ul li{
+	display: block;
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#fesitive ul a:hover{
+	color: hsla(22,89%,48%,1.00);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>中国传统文化</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/banner.css">
+</head>
+<body>
+	
+	
+	
+	
+	<div id="login_form">
+		<h2><img src="images/close.png" alt="" class="close" />网站登录</h2>
+		<div class="user">帐 号：<input type="text" name="user" class="text" /></div>
+		<div class="pass">密 码：<input type="password" name="pass" class="text" /></div>
+		<div class="button"><input type="button" class="submit" value="" /></div>
+		<div class="other">注册新用户 | 忘记密码？</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div id="screen">
+		`<div id="login">
+		<ul>
+			<li>登录</li>
+		</ul>
+	`</div>
+	<div id="header"></div>
+	<div id="menu">
+		<ul>
+			<li class="menu one" style="display: block"><a href="index.html">首页</a></li>
+			<!--<li class="menu"><a href="html/history.html">历史</a></li>-->
+			<li class="menu"><a href="html/culture.html">文化</a></li>
+			<li class="menu"><a href="html/art.html">艺术</a></li>
+			<li class="menu"><a href="html/calligraphy.html">书法</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<div class="banner">
+			<div class="images">
+				<ul>
+					<li class="img_item">
+						<a href="html/art.html"><img src="images/banner1.jpg" width="1395" height="425" alt="1"></a>
+					</li>
+					<li class="img_item">
+						<a href="html/calligraphy.html"><img src="images/banner2.jpg" width="1395" height="425" alt="2"></a>
+					</li>
+					<!--<li class="img_item">
+						<a href="html/history.html"><img src="images/banner3.jpg" width="1395" height="425" alt="3"></a>
+					</li>-->
+					<li class="img_item">
+						<a href="html/culture.html"><img src="images/banner4.jpg" width="1395" height="425" alt="4"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="btn left"></div>
+			<div class="btn right"></div>
+			<div class="dots">
+				<ul>
+					<li class="dots_item"></li>
+					<li class="dots_item"></li><!--
+					<li class="dots_item"></li>-->
+					<li class="dots_item"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<ul>
+			<li>@copy 版权声明 XXX XXX</li>
+			<li>京公网安备 11000002000088号</li>
+			<li>联系我们</li>
+		</ul>
+	</div>
+	</div>
+</body>
+	
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-migrate-1.4.1.min.js"></script>
+	<script src="js/jquery-banner.js"></script>
+	<script>
+		
+		
+		
+		console.log($("#screen"));
+		
+		
+		
+		var lock = function(){
+			
+					
+					$("#screen")[0].hidden = true;
+			
+		}
+		
+		$("#login").click(function(){
+				$("#login_form").css({
+				display:"block"
+			})
+			if($("#login_form").css("display") === 'block'){
+				lock();
+			}
+		})
+		
+		
+		
+		
+		$(".close").click(function(){
+			$("#login_form").css({
+				display:"none"
+			})
+			$("#screen")[0].hidden = false;
+		})
+		
+
+		
+	</script>
+</html>

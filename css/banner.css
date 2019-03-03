@@ -1,0 +1,32 @@
+#menu{
+	position: fixed;
+	top: 60px;
+	right: 0;
+	z-index: 10;
+}
+
+.menu{
+	list-style-type: none;width: 88px;
+	height: 88px;
+	background: url(../images/water2.jpg) right;
+	border-radius: 44px;
+	text-align: center;
+	line-height: 88px;
+	display: none;
+	font-family: 楷体;
+	font-size: 28px;
+}
+
+#menu ul li a{
+	display: block;
+	text-decoration: none;
+	width: 88px;
+	height: 88px;
+	border-radius: 44px;
+	color: black;
+}
+
+#menu ul li a:hover{
+	color: #E5AF11;
+	transition: all 0.3s ease 0s; 
+}
